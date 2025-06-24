@@ -28,8 +28,8 @@ This project was made as part of my **project-based learning of React**, especia
 ## 🚀 How to Run Locally
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/Zmy-Shaurya/React-Pomodoro-Timer.git
+cd React-Pomodoro-Timer
 npm install
 npm run dev
 ```
