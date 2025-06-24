@@ -1,42 +1,54 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+.App{
+  background-color: rgb(252, 179, 179);
+  margin-top: 30%;
+  margin-left: 30%;
+  margin-right: 30%;
   text-align: center;
+  padding-bottom: 45px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 50px;
+  border-color: rgb(252, 115, 115);
+  border-style: outset;
+  border-width: 5px;
+  transition: ease 0.5s;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.App:hover{
+  transition: all 0.5s;
+  transform: scale(1.02);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body{
+  background-color: rgb(253, 133, 133);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+button{
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgb(255, 132, 132);
+  border-color: rgb(248, 114, 114);
+  border-width: 0.2rem;
+  border-radius: 10px;
+  border-collapse: separate;
+  border-style: outset;
 }
 
-.card {
-  padding: 2em;
+button:hover{
+  transition: all 0.3s ease;
+  transform: scale(1.05);
+  background-color: rgb(245, 84, 84);
+  border-color: rgb(250, 88, 88);
+  border-radius: 15px;
+  color: white;
 }
 
-.read-the-docs {
-  color: #888;
+#timeleft{
+  background-color: rgb(255, 251, 251);
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 10px;
+  border-radius: 90px;
 }
