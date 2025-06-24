@@ -1,10 +1,12 @@
 import { useState, useEffect } from 'react';
 import './App.css';
+import dingsound from '../public/ding.mp3';
 
 function App() {
     const initialTime = 25 * 60; // 25 minutes in seconds
     const [timeLeft, setTimeLeft] = useState(initialTime);
     const [isRunning, setIsRunning] = useState(false);
+    const alarmSound = new Audio(dingsound)
 
     useEffect(() => {
         let timer = null;
@@ -15,6 +17,11 @@ function App() {
             }, 1000);
         } else if (!isRunning && timer !== null) {
             clearInterval(timer);
+        }
+
+        if (timeLeft==0 && isRunning) {
+          setIsRunning(false);
+          alarmSound.play();
         }
 
         return () => clearInterval(timer);
