@@ -1,12 +1,51 @@
-# React + Vite
+# Pomodoro Timer ⏳
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and beautiful **Pomodoro Timer** built using **React**.  
+This project was made as part of my **project-based learning of React**, especially to practice:
 
-Currently, two official plugins are available:
+✅ React Hook: useState  
+✅ React Hook: useEffect    
+✅ Browser functions like setInterval  
+✅ Playing sound on events 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🎨 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Preset Timer of 25 minutes (1 Pomodoro Session)
+- Start / Pause the timer
+- Reset the timer anytime
+- **Plays a "ding" sound** when the timer reaches 0
+- Fully responsive UI with hover effects and animations
+- Styled with plain CSS
+
+---
+
+## Screenshots
+
+---
+
+## 🚀 How to Run Locally
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+npm install
+npm run dev
+```
+## 📚 What is Pomodoro?
+
+The **Pomodoro Technique** is a time management method:
+1. Work for 25 minutes
+2. Take a 5-minute break
+3. Repeat
+
+This app helps you stay focused using this technique.
+
+---
+
+## 🎵Credits
+
+Sound Effect by [kakaist](https://pixabay.com/users/kakaist-48093450/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=330333) from [Pixabay](https://pixabay.com/sound-effects//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=330333)
+
+---
