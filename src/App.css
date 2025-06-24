@@ -16,8 +16,8 @@
 }
 
 .App:hover{
-  transition: all 0.5s;
-  transform: scale(1.02);
+  transition: all 0.2s;
+  transform: scale(1.01);
 }
 
 body{
