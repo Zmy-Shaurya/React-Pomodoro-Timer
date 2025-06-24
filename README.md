@@ -22,7 +22,7 @@ This project was made as part of my **project-based learning of React**, especia
 ---
 
 ## Screenshots
-
+![Pomodoro Timer Screenshot](./public/screenshots/image.png)
 ---
 
 ## 🚀 How to Run Locally
